@@ -1,7 +1,10 @@
-import card from "../templates/card_template";
-import menu from "../menu.json";
+import cardsTemplate from '../templates/card_template.hbs';
 
-const markup = card(menu);
+import menu from '../menu.json'
+
+
+const markup = cardsTemplate(menu);
+
 
 const menuRef = document.querySelector('.js-menu');
 menuRef.insertAdjacentHTML('beforeend', markup);
