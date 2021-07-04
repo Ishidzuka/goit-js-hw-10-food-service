@@ -6,17 +6,17 @@
   "homepage": "https://github.com/Ishidzuka/goit-js-hw-10-food-service",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/"
+    "build": "parcel build src/*.html --public-url goit-js-hw-10-food-service/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/Ishidzuka/goit-js-hw-10-food-service.git"
   },
   "keywords": [],
   "author": "Dmitriy <osiris3452@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://github.com/goitacademy/goit-js-hw-10-food-service/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
@@ -24,8 +24,5 @@
     "parcel-plugin-nuke-dist": "^1.0.1",
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
-  },
-  "dependencies": {
-    "handlebars-loader": "^1.7.1"
   }
 }
