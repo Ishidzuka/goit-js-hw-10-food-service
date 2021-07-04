@@ -1,5 +1,5 @@
-import dishes from "./menu.json";
-import menuItemsTpm from "./templates/card_template.hbs";
+import cards from "./menu.json";
+import cardsTmp from "./templates/card_template.hbs";
 import './styles.css';
 
 const Theme = {
@@ -14,11 +14,11 @@ const Theme = {
   }
 
 //1.Add templates
-const cardsMarkup = makeMenuItemCardsMarkup(dishes);
+const cardsMarkup = makeMenuItemCardsMarkup(cards);
 refs.cardsMenuContainer.insertAdjacentHTML('beforeend', cardsMarkup);
 
-function makeMenuItemCardsMarkup(dishes) {
-    return menuItemsTpm(dishes);
+function makeMenuItemCardsMarkup(cards) {
+    return cardsTmp(cards);
 }
 
 //2.Change Theme
